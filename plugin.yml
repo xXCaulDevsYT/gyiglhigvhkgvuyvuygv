@@ -1,0 +1,10 @@
+name: TG_Oofie
+main: Prismeral\main
+version: 1.0.0
+api: 3.15.4
+author: Prismeral
+description: Prismeral user interface for titanium games.
+commands:
+ prismeral:
+  description: prismeral interface for titanium games.
+  usage: "/prismeral"
