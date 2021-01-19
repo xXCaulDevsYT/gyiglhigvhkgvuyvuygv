@@ -21,7 +21,7 @@ class main extends PluginBase{
   }
   public function onCommand(CommandSender $sender, Command $commandname, string $label, array $args): bool {
     if($commandname->getName() === "prismeral"){
-        $this->Form($sender);
+        $sender->sendMessage("\n\n§7Hello, I am landmines1234 the developer of §bTitanium Games §7and you are viewing my profile :)\n\n§l§f* §r§bGamertag: §7landmines1234\n§l§f* §r§bDiscord: §7Prismeral#6475\n§l§f* §r§bYoutube: §7Prismeral\n\n");
     }
     return true;
   }
